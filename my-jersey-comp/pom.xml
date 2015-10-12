@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.ahamojo.samples</groupId>
+    <artifactId>my-jersey</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>my-jersey-comp</artifactId>
+  <packaging>jar</packaging>
+
+  <dependencies>
+
+      <!--
+    <dependency>
+      <groupId>com.ahamojo.samples</groupId>
+      <artifactId>my-jersey-service</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
+-->
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>javax</groupId>
+      <artifactId>javaee-web-api</artifactId>
+    </dependency>
+
+  </dependencies>
+
+  <!--
+  <build>
+     <plugins>
+         <plugin>
+             <groupId>org.codehaus.mojo</groupId>
+             <artifactId>native2ascii-maven-plugin</artifactId>
+             <version>1.0-beta-1</version>
+             <executions>
+                 <execution>
+                     <goals>
+                         <goal>native2ascii</goal>
+                     </goals>
+                     <configuration>
+                         <encoding>UTF-8</encoding>
+                         <src>src/main/resources/</src>
+                         <ext>.properties</ext>
+                         <dest>target/classes/</dest>
+                     </configuration>
+                 </execution>
+             </executions>
+         </plugin>
+     </plugins>
+  </build>
+  -->
+
+</project>
